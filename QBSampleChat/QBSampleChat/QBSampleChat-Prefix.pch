@@ -1,0 +1,29 @@
+//
+//  QBSampleChat-Prefix.pch
+//  QBSampleChat
+//
+//  Created by ravi kant on 9/22/15.
+//  Copyright © 2015 Net Solutions. All rights reserved.
+//
+
+#ifndef QBSampleChat_Prefix_pch
+#define QBSampleChat_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* QBSampleChat_Prefix_pch */
+
+
+#import "AppDelegate.h"
+#import <Quickblox/Quickblox.h>
+#import <Quickblox/QBMulticastDelegate.h>
+#import <Quickblox/QBASession.h>
+#import "Constant.h"
+#import "GMDCircleLoader.h"
+#import <QMServices.h>
+#import "ServicesManager.h"
+#import "UIAlertDialog.h"
+#import <SVProgressHUD.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <MediaPlayer/MediaPlayer.h>
